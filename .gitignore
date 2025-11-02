@@ -1,0 +1,20 @@
+# Ignore Python virtual environments
+eduquery_env/
+venv/
+.env/
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+
+# Ignore OS files
+.DS_Store
+
+# Ignore large model and log files
+*.pkl
+*.h5
+*.ckpt
+*.log
+
+# Ignore temporary folders
+tmp/
